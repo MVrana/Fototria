@@ -1,0 +1,50 @@
+#container {
+    text-align: center;
+}
+
+#hostuji {
+    font-family: Arial, serif;
+    font-weight: bold;
+    color: #22135D;
+    white-space: nowrap;
+}
+
+@media (orientation: landscape) and (min-device-height: 900px), (orientation: portrait) and (min-device-width: 900px) {
+    #container {
+        margin-top: 30px;
+    }
+    #hostuji {
+        font-size: 25px;
+    }
+    #logo {
+        width: 251px;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+@media (orientation: landscape) and (max-device-height: 900px) {
+    #container {
+        margin-top: 11vh;
+    }
+    #hostuji {
+        font-size: 9vh;
+    }
+    #logo {
+        width: auto;
+        height: 57vh;
+    }
+}
+
+@media (orientation: portrait) and (max-device-width: 900px) {
+    #container {
+        margin-top: 8.5vh;
+    }
+    #hostuji {
+        font-size: 8vw;
+    }
+    #logo {
+        width: 78.5vw;
+        height: auto;
+    }
+}
