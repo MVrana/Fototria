@@ -6,6 +6,9 @@ function LoadMap(){
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
 
+    L.marker([49.458579, 18.142458]).addTo(map)
+    .bindPopup('Takhle by mohl vypadat<br> bod s místem panelu')
+
     console.log("Map loaded")
 }
 
