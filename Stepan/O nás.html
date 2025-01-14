@@ -1,0 +1,608 @@
+<html lang="en">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    @font-face {
+    font-family: 'SpaceMonoB';
+    src: url('fonty/SpaceMono-Bold.woff2') format('woff2'),
+         url('fonty/SpaceMono-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SpaceMonoI';
+    src: url('fonty/SpaceMono-Italic.woff2') format('woff2'),
+         url('fonty/SpaceMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SpaceMonoR';
+    src: url('fonty/SpaceMono-Regular.woff2') format('woff2'),
+         url('fonty/SpaceMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Syne-SemiBold';
+    src: url('fonty/Syne-SemiBold.woff2') format('woff2'),
+         url('fonty/Syne-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KanitL';
+    src: url('fonty/kanit-light-webfont.woff2') format('woff2'),
+         url('fonty/kanit-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KanitR';
+    src: url('fonty/kanit-regular-webfont.woff2') format('woff2'),
+         url('fonty/kanit-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+    .box_1{
+background-image: url(https://photographylife.com/wp-content/uploads/2022/06/Unsuccessful-black-and-white-edit-of-a-blue-photo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+
+.subbox_1{
+    width: 80%;
+
+    h1{
+   /* právě jsem na random vybral tuhle barvu jako naši hlavní :3 #DB7534 (oranžová) #7000EF(Fialová) */
+        font-family: 'SpaceMonoB';
+        text-align: left;
+        margin-left: 5%;
+        padding-top: 35vh;
+        color: white;
+
+
+    }
+    p{
+        color: white;
+        font-family: 'SpaceMonoR';
+        font-size: smaller;
+    }
+}
+    }
+    .info_box_2 {
+        background-color: rgb(49, 49, 49);
+        background-image: url(cartographer.png);
+        background-blend-mode: multiply;
+        display: flex;
+        width: 100%;
+    .info_box_2_1{
+        h2{
+            color: white;
+            font-family: 'Syne-SemiBold';
+            margin-top: 20%;
+            margin-left: 5%;
+            transform: translateX(-150%);
+            transition: transform 1.5s ease-in-out;
+        }
+        width: 50%;
+    }
+        .info_box_2_2{ 
+            margin-top: 5%;
+            margin-bottom: 5%;
+            width: 40%;
+            border-left: 3px solid rgb(85, 83, 83);
+            hr{
+                transform: translateX(+150%);
+                transition: transform 2s ease-in-out;
+            }
+        .info_brackets{
+            margin-left: 5%;
+            margin-top:  4.5%;
+            display: flex;
+            transform: translateX(+100%);
+            transition: transform 2s ease-in-out;
+            img{
+
+                width: 110%;
+
+            }
+            .info_brackets_t{
+            h3{
+                
+                color: white; 
+                font-family: 'Syne-SemiBold';
+                text-align: left;
+                padding-top: 5%;
+                padding-left: 5%;
+            }
+            p{
+                font-family: 'SpaceMonoR';
+                margin-left: 5%;
+                color: white;
+            }
+        }
+
+
+    }}}
+    strong{
+        color: #7000EF;
+    }
+    span{
+        color: #DB7534;
+    }
+    .active {
+    transform: translateX(0) !important;
+  }
+  .notdisplay {
+    display: none !important;
+  }
+  .top_p{
+    font-family: 'SpaceMonoR';
+        color: white;
+        margin-left: 5%;
+        padding-top: 15px;
+        padding-bottom: 5px;
+  }
+  .team_box3_parrent{
+    background-color: rgb(24, 24, 24);
+    h2{
+        text-align: center;
+        margin-left: 10%;
+        width: 80%;
+        font-family: 'Syne-SemiBold';
+        color: white;
+    }
+  .team_box3{
+    padding-top: 5%;
+display: flex;
+background-color: rgb(24, 24, 24);        
+    .team_subbox3{
+        /*background-image: linear-gradient(60deg, #DB7534, #7000EF);*/
+        background-image: linear-gradient(60deg, #780894, #7000EF);
+        width: 27%;
+        margin-left: 3.1666666%;
+        margin-right: 3.1666666%;
+        border-radius: 4.9%;
+        transition: 0.7s;
+        margin-bottom: 4%;
+
+        .team_subbox3_card{ 
+            margin: 2%;
+            border-radius: 2.9%;
+            background-color: #1b1b1b;
+            background-size: cover;
+
+        .team_subbox3_t{
+            padding-left: 5%;
+            opacity: 0;
+            width: 95%;
+            background-color: rgb(112, 0, 239, 0.5);
+            transition: 1s;
+            height: 100%;
+
+            h2{
+                color: white;
+                font-family: 'Syne-SemiBold';
+                padding-top: 2%;
+                padding-bottom: 5%;
+            }
+            p{
+                color: rgb(226, 226, 226);
+                font-family: 'SpaceMonoR';
+                padding-right: 5%;
+            }
+        }
+        .team_subbox3_t:hover{
+            opacity: 1;
+        }
+    }
+    }
+    .team_subbox3:hover {
+        width: 30%;
+        margin-left: 1.6666666%;
+        margin-right: 1.6666666%;
+    }
+  }}
+  .project_box4{
+    background-color: rgb(49, 49, 49);
+        background-image: url(cartographer.png);
+        background-blend-mode: multiply;
+    p{
+        color: rgb(255, 255, 255) !important;
+    }
+    hr {
+        color: rgb(255, 255, 255);
+        margin-bottom: 1%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .box_4_wrap{
+        display: flex;
+    .box4_projects{
+width: 45%;
+margin-bottom: 1%;
+        .project_wrap {
+            width: 100%;
+            margin-left: 5%;
+        p{
+            color: white;
+            font-family: 'SpaceMonoR';
+            padding-left: 5%;
+            padding-top: 15%;
+            padding-bottom: 2%;
+        }
+        .project{
+            width: 100%;
+            background-image: url(work.jpeg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            transition: 1s;
+            cursor: pointer;
+            .project_hover{
+                
+                font-family: 'SpaceMonoR';
+                background-color: #DB7534;
+                opacity: 0;
+                transition: 0.7s;
+                margin-left: 42.5%;
+                margin-top: 20%;
+                width: 15%;
+                height: 25%;
+                border-radius: 100%;
+                p{
+                    opacity: 0;
+                    padding-top: 30%;
+                    color: white !important;
+                    transition: 1.4s;
+                    text-align: center;
+                }
+            }
+        }
+        .project:hover{
+            background-size: 110%;
+
+            .project_hover{
+                opacity: 1;
+                p{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    }
+    .box4_projects_t{
+        width: 55%;
+        h2{
+            color: white;
+            font-family: 'Syne-SemiBold';
+            width: 80%;
+            margin-left: 7%;
+            margin-top: 15%;
+        }
+    }
+    }}
+    .contact_box5{
+        background-color: rgb(24, 24, 24);
+        hr{
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+        .contact_box5_t{
+            color: white;
+            width: 80%;
+            margin-left: 10%;
+            text-align: center;
+            margin-top: 5%;
+            font-family: 'Syne-SemiBold';
+        }
+        .contact_box5_button{
+            background-color: #DB7534;
+            width: 12%;
+            height: 20%;
+            margin-left: 44%;
+            border-radius: 100%;
+            margin-top: 3%;
+            transition: 0.25s;
+            cursor: pointer;
+            p{
+                font-family: 'SpaceMonoR';
+                color: white;
+                width: 80%;
+                text-align: center;
+                margin-left: 10%;
+                margin-top: 35%;
+            }
+        }
+        .contact_box5_button:hover{
+            width: 15% !important;
+            margin-left: 42.5%;
+
+
+        }
+    }
+    
+</style>
+<head>
+
+</head>
+<body>
+    <div id="navbar"></div>
+</div>
+    <div class="parent_box_1">
+    <div class="box_1" id="box1">
+        <div class="subbox_1">
+            <h1 id="h1">FOTO<span>TRIA</span></h1>
+        </div>
+    </div>
+</div>
+<div class="info_box_2">
+    <div class="info_box_2_1">
+        <h2 id="info_h2">
+            Naše skupina zkušených <strong>fotografů</strong> nabízí širokou škálu <span>fotografických</span> služeb, od blah blah blah
+        </h2>
+    </div>
+    <div class="info_box_2_2">
+    <div class="info_brackets" id="infoDIV1" >
+        <img id="pic" src="comunity.png" class="info_pic" alt="">
+        <div class="info_brackets_t">
+        <h3 class="changeh3" >Profesionální tým vždy k dispozici</h3>
+        <p class="changep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati nam odit optio rerum quae corporis deserunt totam similique. Alias laborum ipsum quam magni ea obcaecati porro debitis unde voluptates?</P></div>
+    </div>
+<hr id="hr1" style="margin-top: 4.5%; margin-left: 5%; color: rgb(85, 83, 83);">
+    <div class="info_brackets" id="infoDIV2">
+        <img src="phototech.png" class="info_pic" alt="">
+        <div class="info_brackets_t">
+        
+        <h3 class="changeh3" >Vybaveni profesionální technikou</h3>
+        <p class="changep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati nam odit optio rerum quae corporis deserunt totam similique. Alias laborum ipsum quam magni ea obcaecati porro debitis unde voluptates?</p>
+    </div>
+    </div>
+    <hr id="hr2" style="margin-top: 4.5%; margin-left: 5%;">
+    <div class="info_brackets" id="infoDIV3">
+        <img src="time.png" class="info_pic" alt="">
+        <div class="info_brackets_t">
+        
+        <h3 class="changeh3">Bleskově vyřízené zakázky</h3>
+        <P class="changep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur obcaecati nam odit optio rerum quae corporis deserunt totam similique. Alias laborum ipsum quam magni ea obcaecati porro debitis unde voluptates?</P>
+    </div>
+    </div>
+</div>
+</div>
+<div class="team_box3_parrent">
+    <p class="top_p">Tým</p>
+    <hr style="margin-left: 2.5%; margin-right: 2.5%;">
+    <h2 class="project_h2">Náš tým blah blah blah, skibidi mrdá mi z tvorby webu</h2>
+<div class="team_box3" id="team_box3">
+    <div class="team_subbox3">
+        <div class="team_subbox3_card" style="background-image: url(roto.png);">
+        <div class="team_subbox3_t">
+            <h2 class="box3_h2">JMÉNO PŘIJÍMENÍ</h2>
+            <p class="box3_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic esse expedita nihil inventore odit beatae ipsam placeat architecto aspernatur ut tempore facere rerum qui, veniam sed quod in officiis. Officiis?Lorem icxvxcvxcvxcvxcvxcvpsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat velit et voluptatum? Accusantium velit provident sed eius, rem facere non. Beatae dolor eos quo illo rerum? Consectetur, ea architecto?</p>
+        </div>
+    </div>
+    </div>
+    <div class="team_subbox3">
+        <div class="team_subbox3_card" style="background-image: url(hand_p.png);">
+        <div class="team_subbox3_t">
+            <h2 class="box3_h2">JMÉNO PŘIJÍMENÍ</h2>
+            <p class="box3_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic esse expedita nihil inventore odit beatae ipsam placeat architecto aspernatur ut tempore facere rerum qui, veniam sed quod in officiis. Officiis?Lorem icxvxcvxcvxcvxcvxcvpsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat velit et voluptatum? Accusantium velit provident sed eius, rem facere non. Beatae dolor eos quo illo rerum? Consectetur, ea architecto?</p>
+        </div>
+    </div>
+    </div>
+    <div class="team_subbox3">
+        <div class="team_subbox3_card">
+        <div class="team_subbox3_t">
+            <h2 class="box3_h2">JMÉNO PŘIJÍMENÍ</h2>
+            <p class="box3_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic esse expedita nihil inventore odit beatae ipsam placeat architecto aspernatur ut tempore facere rerum qui, veniam sed quod in officiis. Officiis?Lorem icxvxcvxcvxcvxcvxcvpsum dolor sit amet consectetur adipisicing elit. Voluptas fugiat velit et voluptatum? Accusantium velit provident sed eius, rem facere non. Beatae dolor eos quo illo rerum? Consectetur, ea architecto?</p>
+        </div>
+    </div>
+    </div>
+
+    </div>
+</div></div>
+<div class="project_box4">
+    <p class="top_p">
+        Projekty
+    </p>
+    <hr>
+    <div class="box_4_wrap">
+    <div class="box4_projects">
+        <div class="project_wrap">
+            <div class="project" id="project1">
+                <div class="project_hover"><p class="project_p make_a_circle">Prohlédnout Projekt</p></div>
+                <p class="project_h3">Etwas</p>
+            </div>
+            
+            </div>
+        <div class="project_wrap">
+            <div class="project" id="project2">
+                <div class="project_hover"><p class="project_p make_a_circle">Prohlédnout Projekt</p></div>
+                <p class="project_h3">Etwas</p>
+            </div>
+            
+            </div>
+    </div>
+    <div class="box4_projects_t">
+        <h2 class="project_h2">Nevěřte v naše <span>blah blah</span> pomocí bibidu bů a <strong>přesvědčte se</strong> sami</h2>
+                </div></div>
+    </div>
+</div>
+<div class="contact_box5">
+    <p class="top_p">Kontakty</p>
+    <hr>
+    <div class="contact_box5_t">
+        <h2 class="project_h2">Nebojte se nás kontaktovat a společně blah a skibidi vrhneme se na projekt.</h2>
+    </div>
+    <div class="contact_box5_button" id="contact_box5_button">
+       <p id="button_p">Vrhnout se na projekt!</p>
+    </div>
+</div>
+<script>
+
+</script>
+</body>
+<script>
+function AdjustButton() {
+    const circle2 = document.getElementById('contact_box5_button');
+contact_box5_button.style.height = circle2.clientWidth + 'px';
+}
+AdjustButton();
+window.addEventListener('mousemove', AdjustButton);
+const myDiv = document.getElementById('box1');
+
+function adjustBox1() {
+  const divWidth = myDiv.clientWidth;
+  const fontSize = Math.min(divWidth / 8);
+  const fontSizeh3 = Math.min(divWidth / 50);
+  const fontSizep = Math.min(divWidth / 120);
+  const height = Math.min(divWidth / 2);
+  const house = Math.min(height / 3);
+  const fontSizeh2  = Math.min(divWidth / 25);
+  const fontSizeh2box3 = Math.min(divWidth / 50);
+  const fontSizepbox3 = Math.min(divWidth / 100);  
+  h1.style.fontSize = fontSize + 'px';
+  info_h2.style.fontSize = fontSizeh2 + 'px';
+  if (divWidth < 1600) { 
+  box1.style.height = height + 'px';
+}
+else {
+    box1.style.height = 100 + 'vh';
+}
+if (divWidth > 2500) {
+    h1.style.paddingTop = 0 + 'px'
+}
+else {
+    h1.style.paddingTop = house + 'px'
+}
+const circle = document.getElementById('project1');
+const w_circle = circle.clientWidth;
+const h_circle = document.querySelectorAll('div.make_a_circle');
+h_circle.forEach(element => element.style.fontSize = w_circle + 'px');
+const circle2 = document.getElementById('contact_box5_button');
+contact_box5_button.style.height = circle2.clientWidth + 'px';
+const button_p = document.getElementById('button_p');
+button_p.style.fontSize = Math.min(divWidth / 90) + 'px';
+const h2_project = document.querySelectorAll('h2.project_h2');
+h2_project.forEach(element => element.style.fontSize = Math.min(divWidth / 25) + 'px');
+const h3Elements = document.querySelectorAll('h3.changeh3');
+h3Elements.forEach(element => element.style.fontSize = fontSizeh3 + 'px');
+const projectp = document.querySelectorAll('p.project_p');
+projectp.forEach(element => element.style.fontSize = Math.min(divWidth / 120) + 'px');
+const pElements = document.querySelectorAll('p.changep');
+pElements.forEach(element => element.style.fontSize = fontSizep + 'px');
+const box3p = document.querySelectorAll('p.box3_p');
+box3p.forEach(element => element.style.fontSize = fontSizepbox3 + 'px');
+const box3h2 = document.querySelectorAll('h2.box3_h2');
+box3h2.forEach(element => element.style.fontSize = fontSizeh2box3 + 'px');
+const top_p = document.querySelectorAll('p.top_p');
+top_p.forEach(element => element.style.fontSize = Math.min(divWidth / 70) + 'px');
+const subbox = document.querySelectorAll('div.team_subbox3');
+subbox.forEach(element => element.style.height = Math.min(divWidth / 3.2) + 'px');
+const subbox_card = document.querySelectorAll('div.team_subbox3_card');
+subbox_card.forEach(element => element.style.height = Math.min((divWidth / 3.2)*0.96) + 'px');
+const project = document.querySelectorAll('div.project');
+project.forEach(element => element.style.height = Math.min(divWidth / 4) + 'px');
+}
+adjustBox1();
+window.addEventListener('resize', adjustBox1);
+function heightCheck() {
+const inHeight = window.innerHeight;
+const scrollHeight = window.scrollY;
+const move1 = document.getElementById('infoDIV1');
+const rect1 = move1.getBoundingClientRect();
+const bottomPosition1 = rect1.bottom;
+const move2 = document.getElementById('infoDIV2');
+const rect2 = move2.getBoundingClientRect();
+const bottomPosition2 = rect2.bottom;
+const move3 = document.getElementById('infoDIV3');
+const rect3 = move3.getBoundingClientRect();
+const bottomPosition3 = rect3.bottom;
+const check1 = Math.min(inHeight + scrollHeight);
+if (check1 > bottomPosition1) {
+    /*const infoBrackets = document.querySelectorAll('.info_brackets');
+    infoBrackets.forEach(bracket => bracket.classList.add('active'));*/
+    const infoDIV1 = document.getElementById('infoDIV1');
+    infoDIV1.classList.add('active');
+    const hr1 = document.getElementById('hr1');
+    hr1.classList.add('active');
+} 
+if (check1 > bottomPosition2) {
+    const infoDIV2 = document.getElementById('infoDIV2');
+    infoDIV2.classList.add('active');
+    const hr2 = document.getElementById('hr2');
+    hr2.classList.add('active');
+}
+if (check1 > bottomPosition3) {
+    const infoDIV3 = document.getElementById('infoDIV3');
+    infoDIV3.classList.add('active');
+    const h2_info = document.getElementById('info_h2');
+    h2_info.classList.add('active');
+}
+}
+heightCheck();
+window.addEventListener('scroll', heightCheck);
+const mypic = document.getElementById('pic');
+function adjustPic() {
+    const picWidth = pic.clientWidth;
+    const MY_Pic = document.querySelectorAll('img.info_pic');
+    MY_Pic.forEach(element => element.style.height = picWidth + "%");
+}
+adjustPic();
+window.addEventListener('resize', adjustPic);
+
+document.getElementById('project1').addEventListener('click', function () {
+    window.location.href = ''; });
+document.getElementById('project2').addEventListener('click', function () {
+        window.location.href = ''; });
+document.getElementById('contact_box5_button').addEventListener('click', function () {
+            window.location.href = ''; });
+
+
+
+/*
+let card_check = 1;
+const left = document.getElementById('left');
+left.addEventListener('click', () => {
+const vojta = document.getElementById('vojta');
+const stepan = document.getElementById('stepan');
+const martin = document.getElementById('martin');
+if (card_check == 2) {
+vojta.classList.remove('notdisplay');
+stepan.classList.add('notdisplay');
+card_check = 1;
+}
+if (card_check == 3) {
+stepan.classList.remove('notdisplay');
+martin.classList.add('notdisplay');
+card_check = 2;
+}
+
+});
+const right = document.getElementById('right');
+right.addEventListener('click', () => {
+const vojta = document.getElementById('vojta');
+const stepan = document.getElementById('stepan');
+const martin = document.getElementById('martin');
+if (card_check == 2) {
+    martin.classList.remove('notdisplay');
+    stepan.classList.add('notdisplay');
+    card_check = 3;
+}
+if (card_check == 1){
+    stepan.classList.remove('notdisplay');
+    vojta.classList.add('notdisplay');
+    card_check = 2;
+}
+});*/
+</script>
+</html>

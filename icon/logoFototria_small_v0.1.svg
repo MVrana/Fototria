@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="logoFototria_small_v0.1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="245.36605"
+     inkscape:cy="407.73545"
+     inkscape:window-width="2560"
+     inkscape:window-height="1351"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="true">
+    <inkscape:grid
+       id="grid3"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="232.82624"
+       y="369.54973"
+       width="331.90123"
+       height="240.75224"
+       id="rect1" />
+  </defs>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#7000ef;fill-opacity:1;stroke-width:0.541515;paint-order:stroke markers fill"
+       id="path3"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="46.266991"
+       sodipodi:cy="102.36408"
+       sodipodi:r1="20.157427"
+       sodipodi:r2="10.078713"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 66.424417,102.36408 -30.23614,17.45685 0,-34.913691 z"
+       inkscape:transform-center-x="-4.999999"
+       transform="matrix(0.99219014,0,0,0.85926185,24.09435,19.542443)"
+       inkscape:transform-center-y="-2.0316386e-06" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.21565014,0,0,0.21565014,11.652372,20.9616)"
+       id="text1"
+       style="font-weight:bold;font-size:60px;font-family:'Space Mono';-inkscape-font-specification:'Space Mono Bold';text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#db7534;stroke-width:2.31857;paint-order:stroke markers fill"><tspan
+         x="232.82617"
+         y="422.42357"
+         id="tspan4"><tspan
+   style="fill:#ffffff"
+   id="tspan3">F</tspan>T</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Wild World';
+    src: url('fonts/wild-world.eot');
+    src: url('fonts/wild-world.eot?#iefix') format('embedded-opentype'),
+         url('fonts/wild-world.woff2') format('woff2'),
+         url('fonts/wild-world.woff') format('woff'),
+         url('fonts/wild-world.ttf')  format('truetype'),
+         url('fonts/wild-world.svg#Wild World') format('svg');
+}
