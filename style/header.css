@@ -1,16 +1,16 @@
 .nav-bar{
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 0em;
+    z-index: 10;
     width: 100%;
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     transition: all 1s;
     align-items: center;
 }
 
 .nav-bar-links{
-    float: right;
     height: 100%;
     margin-right: 1em;
     font-family: "funnel-sans";
@@ -21,7 +21,7 @@
     gap: 0 1em;
     a{
         text-transform: uppercase;
-        color: var(white);
+        color: var(rgb(3, 1, 1));
         text-decoration: none;
     }
 }
@@ -37,12 +37,12 @@
     background-position: left;
 }
 
-@keyframes hideNavBar{
-    0% {position: sticky;top: 0;}
-    100% {position: absolute;top: -5em;}
+@keyframes hideNavBarBG{
+    0% {background-color: rgb(0, 0, 0); position: fixed;}
+    100% {background-color: rgba(0, 0, 0, 0); position: fixed;}
 }
 
-@keyframes showNavBar{
-    0% {position: absolute;top: -5em;}
-    100% {position: sticky;top: 0;}
+@keyframes showNavBarBG{
+    0% {background-color: rgba(0, 0, 0, 0); position: fixed;}
+    100% {background-color: rgb(0, 0, 0); position: fixed;}
 }

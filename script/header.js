@@ -9,9 +9,9 @@ function LoadHeader(){
     var navBarDiv = document.getElementById("nav-bar")
 
     //Add logo to header
-    var iconDiv = document.createElement("div")
+    /*var iconDiv = document.createElement("div")
     iconDiv.className = "nav-bar-logo"
-    navBarDiv.appendChild(iconDiv);
+    navBarDiv.appendChild(iconDiv);*/
 
     //Add div for links
     var linkDiv = document.createElement("div")
@@ -37,13 +37,11 @@ function LoadHeader(){
 }
 
 function TransformNavBar(){
-    console.log(document.body.scrollTop)
     var navBarDiv = document.getElementById("nav-bar")
-    var titleDiv = document.getElementById("title-background")
-
-    if (window.scrollY == 0){
-        navBarDiv.style = "animation: hideNavBar 1s; animation-fill-mode: forwards;"
+    
+    if (window.scrollY < 100){
+        navBarDiv.style = "animation: hideNavBarBG 2s; animation-fill-mode: forwards;"
     }else{
-        navBarDiv.style = "animation: showNavBar 1s; animation-fill-mode: forwards;"
+        navBarDiv.style = "animation: showNavBarBG 2s; animation-fill-mode: forwards;"
     }
 }
