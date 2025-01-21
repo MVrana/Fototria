@@ -11,18 +11,28 @@
 }
 
 .nav-bar-links{
-    height: 100%;
-    margin-right: 1em;
+    width: 100%;
     font-family: "funnel-sans";
     font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0 1em;
-    a{
+    a, a:visited{
         text-transform: uppercase;
-        color: var(rgb(3, 1, 1));
+        color: rgb(255, 255, 255);
         text-decoration: none;
+        text-shadow: 0px 0px 2px black;
+    }
+}
+
+@media (width < 80vh) {
+    .nav-bar-links{
+        flex-direction: column;
+    }
+    .nav-bar{
+        position: absolute !important;
+        background-color: rgba(0, 0, 0, 0) !important;
     }
 }
 

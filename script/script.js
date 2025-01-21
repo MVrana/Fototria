@@ -1,5 +1,4 @@
 function LoadPageIcon(){
-    console.log("test")
     link = document.createElement("link")
     link.href = "./icon/favicon.png"
     link.rel = "icon"

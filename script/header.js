@@ -23,17 +23,9 @@ function LoadHeader(){
         var linkElement = document.createElement("a")
         linkElement.href = links[i][1]
         linkElement.innerHTML = links[i][0]
-        linkElement.style = "color: var({0})".replace("{0}", i%2!=0?"--fototria-orange":"--fototria-purple")
+        //linkElement.style = "color: var({0})".replace("{0}", i%2!=0?"--fototria-orange":"--fototria-purple")
         linkDiv.appendChild(linkElement)
     }
-    /* Stará verze, nemá index pro střídání barev
-    links.forEach(link => {
-        var linkElement = document.createElement("a")
-        linkElement.href = link[1]
-        linkElement.innerHTML = link[0]
-        linkDiv.appendChild(linkElement)
-    });
-    */
 }
 
 function TransformNavBar(){
