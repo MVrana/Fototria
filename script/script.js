@@ -13,4 +13,5 @@ window.onload = (event) =>{
     LoadPageIcon()
     TransformNavBar()
     LoadHeader()
+    FillContactCards()
 }

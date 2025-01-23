@@ -31,7 +31,7 @@ function LoadHeader(){
 function TransformNavBar(){
     var navBarDiv = document.getElementById("nav-bar")
     
-    if (window.scrollY < 100){
+    if (window.scrollY < 200){
         navBarDiv.style = "animation: hideNavBarBG 2s; animation-fill-mode: forwards;"
     }else{
         navBarDiv.style = "animation: showNavBarBG 2s; animation-fill-mode: forwards;"

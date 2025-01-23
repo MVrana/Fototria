@@ -45,6 +45,53 @@ body{
     }
 }
 
+.home-o-nas{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(24, 24, 24);
+    .title-center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "space-mono-bold";
+        font-size: 2.4vw;
+        color: white;
+        padding: 0.2em 0 0.2em 0;
+    }
+    .contact-card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 2%;
+        width: 100%;
+        height: 100%;
+        background-color: green;
+        .contact-card{
+            height: 90%;
+            width: 30%;
+            border: 5px solid;
+            border-image-slice: 1;
+            border-image-source: linear-gradient(-45deg, var(--fototria-purple), var(--fototria-orange), var(--fototria-purple));
+            background-size: contain;
+        }
+        .contact-card:hover{
+            .contact-info{
+                display: block;
+            }
+        }
+        .contact-info{
+            display: none;   
+        }
+    }
+}
+
+/*
 .page-heading{
     display: flex;
     flex-direction: column;
@@ -67,3 +114,4 @@ body{
     width: 100%;
     height: calc(100vh - 8em);
 }
+*/
