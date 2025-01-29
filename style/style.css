@@ -23,6 +23,11 @@ body{
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "space-mono";
+    src: url(../font/SpaceMono/SpaceMono-Regular.ttf);
+}
+
 #title{
     width: 100%;
     height: 100vh;
@@ -67,27 +72,47 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: row;
+        flex-wrap: nowrap;
         gap: 2%;
         width: 100%;
-        height: 100%;
         background-color: green;
         .contact-card{
-            height: 90%;
+            margin: 3em 0 3em 0;
+            height: 80vh;
             width: 30%;
             border: 5px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(-45deg, var(--fototria-purple), var(--fototria-orange), var(--fototria-purple));
-            background-size: contain;
+            background-size:cover;
+            background-position: 50%;
         }
         .contact-card:hover{
             .contact-info{
-                display: block;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            h3{
+                font-family: "space-mono-bold";
+            }
+            p{
+                font-family: "space-mono";
+                width: 90%;
             }
         }
         .contact-info{
             display: none;   
         }
+    }
+}
+
+@media (width < 80vh){
+    .contact-card-container{
+        flex-direction: column;
+    }
+    .contact-card{
+        width: 90% !important; 
     }
 }
 
