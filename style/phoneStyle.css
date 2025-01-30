@@ -57,13 +57,14 @@ body{
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
+        flex-direction: column;
         gap: 2%;
         width: 100%;
         background-color: green;
         .contact-card{
             margin: 3em 0 3em 0;
             height: 80vh;
-            width: 30%;
+            width: 90%;
             border: 5px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(-45deg, var(--fototria-purple), var(--fototria-orange), var(--fototria-purple));
@@ -90,37 +91,3 @@ body{
         }
     }
 }
-/*
-@media (width < 80vh){
-    .contact-card-container{
-        flex-direction: column;
-    }
-    .contact-card{
-        width: 90% !important; /*Kdyby to předím bylo upravené pomocí opaku tohohle @media (width >= 80vh), tak by tady nemuselo být important asi
-    }
-}
-*/
-/*
-.page-heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h1{
-        margin: 0.5em 0 0 0;
-    }
-    hr{
-        margin: 0.5em 0 1em 0;
-        width: 30%;
-        height: 5px;
-        border-width:0;
-        background-color:gray;
-        border-radius: 20em;
-    }
-}
-
-#map{
-    width: 100%;
-    height: calc(100vh - 8em);
-}
-*/

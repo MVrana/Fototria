@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "funnel-sans";
+    src: url(../font/FunnelSans-VariableFont_wght.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "space-mono-bold";
+    src: url(../font/SpaceMono/SpaceMono-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "space-mono";
+    src: url(../font/SpaceMono/SpaceMono-Regular.ttf);
+}
