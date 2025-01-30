@@ -112,7 +112,7 @@ body{
         flex-direction: column;
     }
     .contact-card{
-        width: 90% !important; 
+        width: 90% !important; /*Kdyby to předím bylo upravené pomocí opaku tohohle @media (width >= 80vh), tak by tady nemuselo být important asi*/
     }
 }
 
