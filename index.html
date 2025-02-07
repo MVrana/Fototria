@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fototria</title>
 
-    <!--Font CSS-->
+    <!--Variables-->
     <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/rootVar.css">
+
+    <!--Common styles-->
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
 
     <!--Desktop Style-->
     <link rel="stylesheet" media="(width > 80vh)" href="style/style.css">
-    <link rel="stylesheet" href="style/header.css">
 
     <!--Phone Style-->
     <link rel="stylesheet" media="(max-width: 80vh)" href="style/phoneStyle.css">
 
-    <script src="script/header.js"></script>
+    <script src="script/widgetGenerator.js"></script>
     <script src="script/contactInfo.js"></script>
 </head>
 <body>
@@ -28,17 +32,15 @@
     <div class="home-o-nas">
         <div class="title-center"><h1>Tým pro různorodé projekty</h1></div>
         <div class="contact-card-container">
-            <div class="contact-card" contact="martin-">
+            <div class="contact-card" contact="stepan-adamek">
             </div>
             <div class="contact-card" contact="martin-vrana">
             </div>
-            <div class="contact-card" contact="martin-vrana">
+            <div class="contact-card" contact="vojtech-prstek">
             </div>
         </div>
     </div>
-    <div style="height: 50vh; width: 100%;">
-
-    </div>
+    <div id="footer-bar"></div>
 </body>
 <script src="script/script.js"></script>
 </html>

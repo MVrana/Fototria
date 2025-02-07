@@ -1,4 +1,4 @@
-const links =[
+const headerLinks =[
     ["Projekty", "./pages/projekty.html"],
     ["Test link", "./pages/projekty.html"],
     ["Test link", "./pages/projekty.html"],
@@ -19,10 +19,10 @@ function LoadHeader(){
     navBarDiv.appendChild(linkDiv);
 
     //Add every link in 'links'
-    for(var i = 0; i < links.length; i++){
+    for(var i = 0; i < headerLinks.length; i++){
         var linkElement = document.createElement("a")
-        linkElement.href = links[i][1]
-        linkElement.innerHTML = links[i][0]
+        linkElement.href = headerLinks[i][1]
+        linkElement.innerHTML = headerLinks[i][0]
         //linkElement.style = "color: var({0})".replace("{0}", i%2!=0?"--fototria-orange":"--fototria-purple")
         linkDiv.appendChild(linkElement)
     }
@@ -30,10 +30,18 @@ function LoadHeader(){
 
 function TransformNavBar(){
     var navBarDiv = document.getElementById("nav-bar")
-    
     if (window.scrollY < 200){
         navBarDiv.style = "animation: hideNavBarBG 2s; animation-fill-mode: forwards;"
     }else{
         navBarDiv.style = "animation: showNavBarBG 2s; animation-fill-mode: forwards;"
     }
+}
+
+function LoadFooter(){
+    var footerDiv = document.getElementById("footer-bar")
+    var anafraIcon = "./icon/anafraIcon.png"
+    // Powered by ANAFRA
+    var footerParagraph = document.createElement("p")
+    footerParagraph.innerHTML = "Copyright Fototria " + new Date().getFullYear() + ", Powered by <a href=\"https://anafra.cz\">ANAFRA<img style=\"height: 0.8rem\" src=\""+anafraIcon+"\"></a>";
+    footerDiv.appendChild(footerParagraph)
 }

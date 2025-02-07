@@ -9,6 +9,16 @@ const CONTACTS = {
         "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo neque tenetur quia aliquid laborum eius! Corporis error illo commodi porro adipisci, vero est modi quas repellendus, dolorum fugit ea necessitatibus.",
         "img":"./icon/emptyContact.svg",
     },
+    "vojtech-prstek":{
+        "name":"Vojtěch Prstek",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo neque tenetur quia aliquid laborum eius! Corporis error illo commodi porro adipisci, vero est modi quas repellendus, dolorum fugit ea necessitatibus.",
+        "img":"./icon/emptyContact.svg",
+    },
+    "stepan-adamek":{
+        "name":"Štěpán Adámek",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo neque tenetur quia aliquid laborum eius! Corporis error illo commodi porro adipisci, vero est modi quas repellendus, dolorum fugit ea necessitatibus.",
+        "img":"./icon/emptyContact.svg",
+    },
 }
 function GenerateContactCard(contactCard){
     var contactID = contactCard.getAttribute("contact")
