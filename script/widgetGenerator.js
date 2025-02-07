@@ -42,6 +42,6 @@ function LoadFooter(){
     var anafraIcon = "./icon/anafraIcon.png"
     // Powered by ANAFRA
     var footerParagraph = document.createElement("p")
-    footerParagraph.innerHTML = "Copyright Fototria " + new Date().getFullYear() + ", Powered by <a href=\"https://anafra.cz\">ANAFRA<img style=\"height: 0.8rem\" src=\""+anafraIcon+"\"></a>";
+    footerParagraph.innerHTML = "Copyright Fototria " + new Date().getFullYear() + ", Powered by <a href=\"https://anafra.cz\" target=\"_blank\">ANAFRA<img style=\"height: 0.8rem\" src=\""+anafraIcon+"\"></a>";
     footerDiv.appendChild(footerParagraph)
 }
