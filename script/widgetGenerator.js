@@ -39,9 +39,14 @@ function TransformNavBar(){
 
 function LoadFooter(){
     var footerDiv = document.getElementById("footer-bar")
-    var anafraIcon = "./icon/anafraIcon.png"
     // Powered by ANAFRA
+    var anafraIcon = "./icon/anafraIcon.png"
+    var anafraLink = "https://anafra.cz"
+    var anafraText = "Powered by <a href=\""+anafraLink+"\" target=\"_blank\">ANAFRA s.r.o.</a>"
+    //Copyright
+    const CURRENT_YEAR = new Date().getFullYear()
+    var copyrightText = "Copyright Fototria " + CURRENT_YEAR
     var footerParagraph = document.createElement("p")
-    footerParagraph.innerHTML = "Copyright Fototria " + new Date().getFullYear() + ", Powered by <a href=\"https://anafra.cz\" target=\"_blank\">ANAFRA<img style=\"height: 0.8rem\" src=\""+anafraIcon+"\"></a>";
+    footerParagraph.innerHTML = copyrightText + ", " + anafraText;
     footerDiv.appendChild(footerParagraph)
 }

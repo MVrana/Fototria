@@ -57,19 +57,21 @@ body{
         background-color: green;
         .contact-card{
             margin: 3em 0 3em 0;
-            height: 80vh;
-            width: 30%;
+            height: 75vh;
             border: 5px solid;
             border-image-slice: 1;
             border-image-source: linear-gradient(-45deg, var(--fototria-purple), var(--fototria-orange), var(--fototria-purple));
-            background-size:cover;
+            background-size: cover;
+            background-repeat: no-repeat;
             background-position: 50%;
         }
         .contact-card:hover{
             .contact-info{
+                animation: slideUp 0.3s ease-in forwards;
                 display: flex;
+                height: 100%;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: flex-end;
                 align-items: center;
             }
             h3{
@@ -85,37 +87,23 @@ body{
         }
     }
 }
-/*
+
+@keyframes slideUp {
+    0%{transform: translateY(30%);}
+    100%{transform: translateY(-5%);height: 100%;}
+}
+
+@media (width >= 80vh){
+    .contact-card{
+        width: 30%; /*Kdyby to předím bylo upravené pomocí opaku tohohle @media (width >= 80vh), tak by tady nemuselo být important asi*/
+    }
+}
+
 @media (width < 80vh){
     .contact-card-container{
         flex-direction: column;
     }
     .contact-card{
-        width: 90% !important; /*Kdyby to předím bylo upravené pomocí opaku tohohle @media (width >= 80vh), tak by tady nemuselo být important asi
+        width: 90%; /*Kdyby to předím bylo upravené pomocí opaku tohohle @media (width >= 80vh), tak by tady nemuselo být important asi*/
     }
 }
-*/
-/*
-.page-heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h1{
-        margin: 0.5em 0 0 0;
-    }
-    hr{
-        margin: 0.5em 0 1em 0;
-        width: 30%;
-        height: 5px;
-        border-width:0;
-        background-color:gray;
-        border-radius: 20em;
-    }
-}
-
-#map{
-    width: 100%;
-    height: calc(100vh - 8em);
-}
-*/
