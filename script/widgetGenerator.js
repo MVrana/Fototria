@@ -1,5 +1,5 @@
 const headerLinks =[
-    ["Projekty", "./pages/projekty.html"],
+    ["Projekty", "./pages/projects.html"],
     ["Test link", "./pages/projekty.html"],
     ["Test link", "./pages/projekty.html"],
     ["Test link", "./pages/projekty.html"],
