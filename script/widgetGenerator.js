@@ -1,8 +1,6 @@
 const headerLinks =[
+    ["Home", "../index.html"],
     ["Projekty", "./pages/projects.html"],
-    ["Test link", "./pages/projekty.html"],
-    ["Test link", "./pages/projekty.html"],
-    ["Test link", "./pages/projekty.html"],
 ]
 
 function LoadHeader(){
